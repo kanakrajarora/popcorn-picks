@@ -1,0 +1,15 @@
+{
+  "model_name": "SVD",
+  "n_factors": 40,
+  "n_epochs": 15,
+  "random_seed": 42,
+  "modelling_sample_size": 500000,
+  "final_model_training_ratings": 500000,
+  "rating_scale": [
+    0.5,
+    5.0
+  ],
+  "selection_metric": "RMSE",
+  "test_metrics_source": "Held-out test split before final refit",
+  "dataset_ratings_available": 20000263
+}
